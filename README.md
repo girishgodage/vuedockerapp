@@ -1,5 +1,16 @@
 # vuedockerapp
 
+This is sample repository for vue doacker app.
+
+To Build the docker image.
+```
+    docker build -t dockervue .
+```
+
+To run the image in container
+```
+    docker run -p 8002:80 -it --name dockerizedvue dockervue
+```
 ## Project setup
 ```
 npm install
